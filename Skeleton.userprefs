@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameControl\Stage2\SlotForAns.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GameControl\Stage1\AnsChk.cs" Line="122" Column="34" />
+      <File FileName="Assets\Scripts\GameControl\Stage2\SlotForAns.cs" Line="56" Column="1" />
+      <File FileName="Assets\Scripts\Characters\Health.cs" Line="17" Column="1" />
+      <File FileName="Assets\Scripts\GameControl\Stage1\Scoring.cs" Line="13" Column="44" />
+      <File FileName="Assets\Scripts\GameControl\Stage2\Gamesql.cs" Line="227" Column="1" />
+      <File FileName="Assets\Scripts\GameControl\Stage2\countScore.cs" Line="17" Column="42" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

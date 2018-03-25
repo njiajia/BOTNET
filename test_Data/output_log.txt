@@ -1,0 +1,229 @@
+Initialize engine version: 5.1.0f3 (ec70b008569d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940M (ID=0x1347)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\MySql.Data.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\MySql.Data.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Data.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Data.dll into Unity Child Domain
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Drawing.dll (this message is harmless)
+Loading C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Drawing.dll into Unity Child Domain
+- Completed reload, in  0.072 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Transactions.dll (this message is harmless)
+Platform assembly: C:\Users\User\Downloads\BOTNET\BOTNET\test_Data\Managed\System.Configuration.dll (this message is harmless)
+System.NotSupportedException: CodePage 1252 not supported
+  at System.Text.Encoding.GetEncoding (Int32 codepage) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver..ctor (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Started the SQL!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+System.NotSupportedException: CodePage 1252 not supported
+  at System.Text.Encoding.GetEncoding (Int32 codepage) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver..ctor (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Correct
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Started the SQL!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+System.NotSupportedException: CodePage 1252 not supported
+  at System.Text.Encoding.GetEncoding (Int32 codepage) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver..ctor (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+It's a hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Correct
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Started the SQL!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+System.NotSupportedException: CodePage 1252 not supported
+  at System.Text.Encoding.GetEncoding (Int32 codepage) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver..ctor (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Correct
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Started the SQL!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+System.NotSupportedException: CodePage 1252 not supported
+  at System.Text.Encoding.GetEncoding (Int32 codepage) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver..ctor (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+It's a hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+It's a hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Correct
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Started the SQL!!!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+System.NotSupportedException: CodePage 1252 not supported
+  at System.Text.Encoding.GetEncoding (Int32 codepage) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver..ctor (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.Driver.Create (MySql.Data.MySqlClient.MySqlConnectionStringBuilder settings) [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection () [0x00000] in <filename unknown>:0 
+  at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver () [0x00000] in <filename unknown>:0 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+It's a hit
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+killing con
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.536300 ms
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 416.
+Total: 0.823705 ms (FindLiveObjects: 0.034370 ms CreateObjectMapping: 0.025679 ms MarkObjects: 0.577186 ms  DeleteObjects: 0.185679 ms)
+

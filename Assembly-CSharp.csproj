@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{F46F333B-3BC8-B28D-6301-3D9222CDB25F}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_0;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Characters\BossAI.cs" />
+     <Compile Include="Assets\Scripts\Characters\Enemy1Health.cs" />
+     <Compile Include="Assets\Scripts\Characters\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\Characters\Health.cs" />
+     <Compile Include="Assets\Scripts\Characters\HealthMP1.cs" />
+     <Compile Include="Assets\Scripts\Characters\HealthMP2.cs" />
+     <Compile Include="Assets\Scripts\Characters\HealthStage2.cs" />
+     <Compile Include="Assets\Scripts\Characters\Stage3Health.cs" />
+     <Compile Include="Assets\Scripts\Characters\Stage4health.cs" />
+     <Compile Include="Assets\Scripts\Characters\bossHP.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Game over\DisplayHighScore.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Game over\GameOverScore.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Game over\GameOverScript.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Game over\GameOverSql.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Highscore\Leaderboardsql.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP1\AnsChk1MP.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP1\InstructionMP1.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP1\SQLMP1.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP1\SQLcontrollerMP1.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP2\GamesqlM.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP2\Instruction2.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP2\ResetOption.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP2\ResetOption2.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MP2\SlotForAns2.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MPENDGAMECONTROL.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Menu\Menu.cs" />
+     <Compile Include="Assets\Scripts\GameControl\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Pauser.cs" />
+     <Compile Include="Assets\Scripts\GameControl\PixelDensityCamera.cs" />
+     <Compile Include="Assets\Scripts\GameControl\PlayerDest.cs" />
+     <Compile Include="Assets\Scripts\GameControl\ScaleWidthCamera.cs" />
+     <Compile Include="Assets\Scripts\GameControl\ScreenBoundaries.cs" />
+     <Compile Include="Assets\Scripts\GameControl\SetAudioLevels.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage1\AnsChk.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage1\BGManager.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage1\Instruction.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage1\Scoring.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage1\newsql.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage2\Draggable.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage2\Gamesql.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage2\InstructionMP2.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage2\Slot.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage2\SlotForAns.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage2\countScore.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage3\CDTimer.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage3\DestroyWall.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage3\Instruction3.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage3\SpriteTextSql.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage3\Stage3Score.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage3\WallText.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage3\playercontroller.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\DestroyOther.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\Dropper.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\FireBall2.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\Instruction4.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\Rotation.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\SQLcontroller.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\Turret2.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\Turrets.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\dropletController.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\dropletControllerWrong.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\gameController.cs" />
+     <Compile Include="Assets\Scripts\GameControl\Stage4\playercontroller4.cs" />
+     <Compile Include="Assets\Scripts\GameControl\TIMERSMP\TimerOne.cs" />
+     <Compile Include="Assets\Scripts\GameControl\TIMERSMP\TimerTwo.cs" />
+     <Compile Include="Assets\Scripts\GameControl\camShake.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\Destroy.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\DestroyStage4.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\FireBall.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\Laser.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\Missile.cs" />
+     <Compile Include="Assets\Scripts\Projectiles\laserBoss.cs" />
+     <Compile Include="Assets\Scripts\StoryMode\SM2Butans.cs" />
+     <Compile Include="Assets\Scripts\StoryMode\scenario1.cs" />
+     <Compile Include="Assets\Scripts\StoryMode\scenario2.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="MySql.Data">
+ <HintPath>C:/Users/Teo/Desktop/BOTNET/Assets/Plugins/MySql.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>C:/Users/Teo/Desktop/BOTNET/Assets/Plugins/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>C:/Users/Teo/Desktop/BOTNET/Assets/Plugins/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
